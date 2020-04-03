@@ -1,2 +1,17 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- text相当于是span -->
+<text>知识点2</text>
+<text selectable>可选中的文字</text>
+<!-- 相当于div s-->
+<view>
+  <view class="son"></view>
+  <view class="son"></view>
+
+</view>
+
+<!-- scroll-view可滚动区域的div给其设置scroll-y以及scroll-x会能滚动 且默认会有overflow:hidden的属性 -->
+<scroll-view class="container" scroll-y>
+  <view class="son"></view>
+  <view class="son"></view>
+
+</scroll-view>

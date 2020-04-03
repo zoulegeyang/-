@@ -1,1 +1,10 @@
 /* pages/home/home.wxss */
+.container{
+  height: 100px;
+  background-color: #f00;
+}
+.son{
+  height: 70px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
